@@ -32,7 +32,7 @@ class CheatAccount extends BankAccount {
 
 public class ClassInvariants {
     public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount(100);
+        BankAccount bankAccount = new CheatAccount(400);
         bankAccount.withdraw(100);
     }
 }
